@@ -1,0 +1,1 @@
+Robocopy.exe C:\Users\adria\Documents C:\Users\adria\backup\ *.* /s /v /Z /R:3 /W:10 /XO /NP
