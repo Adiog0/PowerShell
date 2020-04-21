@@ -1,5 +1,9 @@
 #Script para backup seletivo de arquivos
 
+    
+# $disk = 'Get-WmiObject Win32_LogicalDisk -ComputerName remote_computer -Filter DriveType=3 | Select-Object DeviceID, FreeSpace, Size'    
+$disk = "teste"    
+Write-Host $disk
 $sourcePath = 'C:\Users\adria\Documents\bck1'
 $destinationPath = 'C:\Users\adria\Documents\bck2'
 Clear-Host
