@@ -1,13 +1,12 @@
 #Script para backup seletivo de arquivos
 
-function FunctionName {
-        Get-WmiObject Win32_LogicalDisk -Filter DriveType=3 | Select-Object DeviceID, FreeSpace, Size
+# function FunctionName {
+#         Get-WmiObject Win32_LogicalDisk -Filter DriveType=3 | Select-Object DeviceID, FreeSpace, Size
    
-}    
+# }    
 
-FunctionName
-$sourcePath = 'C:\Users\adria\Documents\bck1'
-$destinationPath = 'C:\Users\adria\Documents\bck2'
+# FunctionName
+
 Clear-Host
 Write-Host "Backup de arquivos seletivos"
 Write-Host "Escolha o disco de origem, 1 para C, 2para D"
