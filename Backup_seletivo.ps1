@@ -15,6 +15,7 @@ Switch ($discOrig)
       {
        1 { $sourcePath = 'C:\Users\adria\Documents\bck1' }
        2 { $sourcePath = 'D:\' }
+       * {"erro"}
        }
 
 Write-Host " Escolha o disco de Destino, 1 para C, 2 para D "
