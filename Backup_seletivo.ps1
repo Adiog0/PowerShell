@@ -1,4 +1,5 @@
 #Script para backup seletivo de arquivos
+#criado por Adiog0
 
 # function FunctionName {
 #         Get-WmiObject Win32_LogicalDisk -Filter DriveType=3 | Select-Object DeviceID, FreeSpace, Size
