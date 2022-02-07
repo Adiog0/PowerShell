@@ -1,3 +1,3 @@
-foreach ($arquivos in Get-ChildItem) {
-    $arquivos
-}
+    foreach ($arquivos in Get-ChildItem) {
+        $arquivos
+    }

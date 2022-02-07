@@ -1,10 +1,10 @@
-$i = 0
+   $i = 0
 
-while ($true) {
-   $i ++
-   
+   while ($true) {
+      $i ++
+      
 
-   if ($i -le 1000) {
-    $i  
+      if ($i -le 1000) {
+      $i  
+      }
    }
-}
